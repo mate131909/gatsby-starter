@@ -15,6 +15,7 @@ module.exports = {
     "import/resolver": {
       node: {
         extensions: [".ts", ".tsx", ".js", ".jsx"],
+        paths: ["."],
       },
     },
     react: {
@@ -34,6 +35,6 @@ module.exports = {
     ],
     "react/jsx-filename-extension": 0,
     "react/jsx-one-expression-per-line": "off",
-    "no-use-before-define": ["error", { variables: false }],
+    "no-use-before-define": "off",
   },
-};
+}
